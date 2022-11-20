@@ -1,0 +1,54 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.form-control-1 {
+    border-color: gray;
+    background-color: black;
+  }
+
+  .btn-1{
+    border-color: gray;
+    background-color: white;
+    color: black;
+
+  }
+  .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+ }
+
+  .heading{
+    font-size: 3.5vw;
+    
+  }
+  .heading-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+    margin-left: 2vw;
+ }
+ 
+
+  @media screen and (min-width:0px) and (max-width:992px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .card-img-top {
+        width: 100%;
+        height: 45vw;
+        object-fit: cover;
+     }
+     .heading{
+        font-size: 6vw;
+     }
+     .heading-container{
+        /* width: 100vw; */
+        display: flex;
+        justify-content: center;
+     }
+    
+}
